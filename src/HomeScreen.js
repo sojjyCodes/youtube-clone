@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, List  } from 'react-native';
 
 function HomeScreen() {
     return <View style={styles.container}>
@@ -8,7 +8,7 @@ function HomeScreen() {
 }
 
 function ExploreScreen() {
-    return <View style={styles2.msg}></View>
+    return <View style={styles.msg}></View>
 
 }
 
@@ -18,27 +18,19 @@ const styles = StyleSheet.create({
         backgroundColor: "#1b1b1b",
         alignItems: "center",
         justifyContent: "center",
-    }
-});
-const styles2 = StyleSheet.create({
-    msg: {
+    },
+	    msg: {
     	flex: 1,
     	backgroundColor: "green",
     	alignItems: "center",
     	justifyContent: "center",
     	}
-    });
+
+});
+const styles = StyleSheet.create({
 
 export default HomeScreen;
 ExploreScreen (ExploreScreen);
-
-
-
-
-
-
-
-
 
 
 
