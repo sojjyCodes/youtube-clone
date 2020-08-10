@@ -20,7 +20,6 @@ const TabNavigator = createMaterialTopTabNavigator (
     	Notification: NotificationScreen,
     	Libary: LibaryScreen
   },
-
 	{
 	defaultNavigationOptions: ({ navigation }) => ({
 	  tabBarIcon: ({ tintColor }) => {
@@ -63,12 +62,11 @@ const TabNavigator = createMaterialTopTabNavigator (
 	  }
 	}, 
 	animationEnabled: true,
-	  swipeEnabled: true,
+	  swipeEnabled: false,
 	  tabBarPosition: "bottom",
   }
 );
 
 
 export default createAppContainer(TabNavigator);
-
 
