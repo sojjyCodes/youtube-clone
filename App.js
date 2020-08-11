@@ -70,3 +70,27 @@ const TabNavigator = createMaterialTopTabNavigator (
 
 export default createAppContainer(TabNavigator);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
