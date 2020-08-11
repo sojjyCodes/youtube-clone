@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
-function ExploScreen() {
+function ExploreScreen() {
     return <View style={styles.container}></View>
 }
 
@@ -14,4 +14,4 @@ const styles = StyleSheet.create({
     }
 })
 
-ExploreScreen (ExploScreen);
+export default ExploreScreen();
